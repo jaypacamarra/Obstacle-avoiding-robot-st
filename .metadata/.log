@@ -1,0 +1,24 @@
+!SESSION 2021-04-29 22:02:24.679 -----------------------------------------------
+eclipse.buildId=Version 1.5.0
+java.version=1.8.0_272
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-04-29 22:02:46.706
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-04-29 22:02:46.771
+!MESSAGE Log4j initialized with config file C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-04-29 22:02:54.329
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-04-29 22:02:54.928
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-29 22:38:05.480
+!MESSAGE Indexed 'obstacle-avoiding-bot' (21 sources, 80 headers) in 3.17 sec: 4,896 declarations; 20,930 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0077%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-29 23:53:48.213
+!MESSAGE Indexed 'obstacle-avoiding-bot' (22 sources, 83 headers) in 1.24 sec: 6,267 declarations; 41,632 references; 0 unresolved inclusions; 1 syntax errors; 7 unresolved names (0.015%)

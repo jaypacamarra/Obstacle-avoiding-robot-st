@@ -1,0 +1,20 @@
+/*
+ * ultrasonic_sensor.c
+ *
+ *  Created on: Apr 29, 2021
+ *      Author: jpaca
+ */
+
+#include "ultrasonic_sensor.h"
+
+float getDistance()
+{
+	HAL_GPIO_WritePin(trigPin_GPIO_Port, trigPin_Pin, 1);
+	delay_us(10);
+	HAL_GPIO_WritePin(trigPin_GPIO_Port, trigPin_Pin, 0);
+	HAL_Delay(80);
+
+	// calculate distance in cm
+	distance = pulseDuration / 59;
+	return distance;
+}
