@@ -1,1 +1,2 @@
-ultrasonic_sensor.c:10:7:getDistance	8	static
+ultrasonic_sensor.c:19:7:getDistance	8	static
+ultrasonic_sensor.c:29:6:HAL_TIM_IC_CaptureCallback	16	static

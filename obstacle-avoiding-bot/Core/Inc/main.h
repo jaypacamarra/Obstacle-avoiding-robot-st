@@ -71,7 +71,6 @@ void Error_Handler(void);
 #define trigPin_Pin GPIO_PIN_10
 #define trigPin_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
-
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

@@ -1,0 +1,51 @@
+/*
+ * ultrasonic_sensor.c
+ *
+ *  Created on: Apr 29, 2021
+ *      Author: jpaca
+ */
+
+#include "ultrasonic_sensor.h"
+
+
+uint8_t is_time_captured = 0;
+extern TIM_HandleTypeDef htim1;
+
+
+float getDistance()
+{
+	uint16_t Time_at_rising_edge;
+	uint16_t Time_at_falling_edge;
+	uint16_t pulse_width;
+	float distance = 0;
+
+	HAL_GPIO_WritePin(trigPin_GPIO_Port, trigPin_Pin, 1);
+	delay_us(10);
+	HAL_GPIO_WritePin(trigPin_GPIO_Port, trigPin_Pin, 0);
+	HAL_Delay(80);
+
+
+	if(is_time_captured==0)
+	{
+		Time_at_rising_edge = HAL_TIM_ReadCapturedValue(&htim1, TIM_CHANNEL_1);
+		is_time_captured = 1;
+		__HAL_TIM_SET_CAPTUREPOLARITY(&htim1, TIM_CHANNEL_1, TIM_INPUTCHANNELPOLARITY_FALLING);
+	}
+	else if(is_time_captured)
+	{
+		Time_at_falling_edge = HAL_TIM_ReadCapturedValue(&htim1, TIM_CHANNEL_1);
+		__HAL_TIM_SET_COUNTER(&htim1, 0);
+		is_time_captured = 0;
+		__HAL_TIM_SET_CAPTUREPOLARITY(&htim1, TIM_CHANNEL_1, TIM_INPUTCHANNELPOLARITY_RISING);
+
+		if(Time_at_falling_edge>Time_at_rising_edge)
+			pulse_width = Time_at_falling_edge - Time_at_rising_edge;
+
+		// calculate distance in cm
+		distance = pulse_width / 59;
+
+	}
+
+
+	return distance;
+}

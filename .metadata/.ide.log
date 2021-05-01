@@ -175,3 +175,1457 @@
 2021-04-29 22:03:04,229 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
 2021-04-29 22:03:04,272 [FATAL] Updater:284 - Updater called before beeing initialized
 2021-04-29 22:03:04,273 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-04-29 22:03:05,899 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-04-29 22:03:08,904 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-29 22:03:08,904 [ERROR] AbstractThirdPartyUpdaterManager:153 - java.lang.Integer cannot be cast to java.util.List
+2021-04-29 22:03:08,904 [INFO] ThirdParty:887 - Integrity check success = false
+2021-04-29 22:03:08,905 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-29 22:03:08,905 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-29 22:03:08,905 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-04-29 22:03:08,906 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-04-29 22:03:08,908 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-29 22:03:08,909 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-29 22:03:08,916 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-04-29 22:03:08,919 [INFO] Updater:1002 - Updater Version found : 6.1.0
+2021-04-29 22:03:08,938 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557
+2021-04-29 22:03:09,279 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-29 22:03:09,280 [INFO] MainUpdater:249 - Updater Check For Update Now.
+2021-04-29 22:03:09,280 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-29 22:03:09,342 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-04-29 22:03:09,390 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-29 22:03:09,662 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\jpaca\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-04-29 22:03:09,666 [INFO] MultiScanPanel:198 - Auto-refresh data requested => check proxy status ongoing
+2021-04-29 22:03:09,669 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2021-04-29 22:03:09,670 [INFO] DbMcusXml:97 - Load MCU database from C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/mcu/families.xml
+2021-04-29 22:03:10,233 [INFO] DbMcusJson:92 - JSON generation date=Mon Feb 08 05:35:07 PST 2021 (1612791307)
+2021-04-29 22:03:10,940 [INFO] DbMcus:176 - Found 1835 MCUs (1796 are supported by CubeMX, 1804 are visible in CubeMX)
+2021-04-29 22:03:10,942 [INFO] ApiDb:238 - Load user favorites file C:\Users\jpaca/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-04-29 22:03:10,942 [INFO] ApiDb:242 - User favorites MCUs=[]
+2021-04-29 22:03:10,942 [INFO] DbMcus:188 - Set 0 / 0 favorites MCUs
+2021-04-29 22:03:11,330 [INFO] DetailPanel:344 - Set advertising image to C:/Users/jpaca/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2021-04-29 22:03:11,552 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2021-04-29 22:03:11,640 [INFO] DbBoardsPdsc:91 - Found 24 items
+2021-04-29 22:03:11,642 [INFO] DbBoardsPdsc:91 - Found 9 items
+2021-04-29 22:03:11,646 [INFO] DbBoardsPdsc:91 - Found 32 items
+2021-04-29 22:03:11,648 [INFO] DbBoardsPdsc:91 - Found 1 items
+2021-04-29 22:03:11,653 [INFO] DbBoardsPdsc:91 - Found 45 items
+2021-04-29 22:03:11,659 [INFO] DbBoardsPdsc:91 - Found 41 items
+2021-04-29 22:03:11,662 [INFO] DbBoardsPdsc:91 - Found 2 items
+2021-04-29 22:03:11,664 [INFO] DbBoardsPdsc:91 - Found 4 items
+2021-04-29 22:03:11,669 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2021-04-29 22:03:11,670 [WARN] DbBoardsPdsc:255 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2021-04-29 22:03:11,672 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2021-04-29 22:03:11,672 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2021-04-29 22:03:11,672 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2021-04-29 22:03:11,689 [INFO] DbBoardsJson:85 - JSON generation date=Thu Feb 04 08:53:45 PST 2021 (1612457625)
+2021-04-29 22:03:11,694 [INFO] DbBoards:118 - Found 160 boards (155 are supported by CubeMX)
+2021-04-29 22:03:11,702 [INFO] DbBoardsDocs:145 - JSON generation date=Mon Feb 08 05:35:07 PST 2021 (1612791307)
+2021-04-29 22:03:11,725 [INFO] DbBoardsDocs:81 - Found 193 boards documents
+2021-04-29 22:03:11,726 [WARN] DbBoards:128 - board B-L462E-CELL1 has no document id list !
+2021-04-29 22:03:11,726 [WARN] DbBoards:128 - board B-L475E-IOT01A2 has no document id list !
+2021-04-29 22:03:11,727 [WARN] DbBoards:128 - board NUCLEO-G0B1RE has no document id list !
+2021-04-29 22:03:11,727 [WARN] DbBoards:128 - board NUCLEO-H743ZI2 has no document id list !
+2021-04-29 22:03:11,728 [WARN] DbBoards:128 - board NUCLEO-L4A6ZG has no document id list !
+2021-04-29 22:03:11,728 [WARN] DbBoards:128 - board NUCLEO-WB55RG has no document id list !
+2021-04-29 22:03:11,728 [WARN] DbBoards:128 - board NUCLEO-WL55JC1 has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board NUCLEO-WL55JC2 has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-BFA001V1B has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-BFA001V2B has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-IDP005V1 has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-IDP005V2 has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-STWINKT1 has no document id list !
+2021-04-29 22:03:11,729 [WARN] DbBoards:128 - board STEVAL-STWINKT1B has no document id list !
+2021-04-29 22:03:11,730 [WARN] DbBoards:128 - board STM32F401C-DISCO has no document id list !
+2021-04-29 22:03:11,730 [WARN] DbBoards:128 - board STM32F769I-DISC1 has no document id list !
+2021-04-29 22:03:11,731 [WARN] DbBoards:128 - board STM32G0C1E-EV has no document id list !
+2021-04-29 22:03:11,731 [WARN] DbBoards:128 - board STM32G474E-EVAL1 has no document id list !
+2021-04-29 22:03:11,731 [WARN] DbBoards:128 - board STM32H743I-EVAL2 has no document id list !
+2021-04-29 22:03:11,731 [WARN] DbBoards:128 - board STM32H747I-DISC1 has no document id list !
+2021-04-29 22:03:11,732 [WARN] DbBoards:128 - board STM32H753I-EVAL2 has no document id list !
+2021-04-29 22:03:11,732 [WARN] DbBoards:128 - board STM32L-DISCOVERY has no document id list !
+2021-04-29 22:03:11,733 [WARN] DbBoards:128 - board STM32MP157A-DK1 has no document id list !
+2021-04-29 22:03:11,733 [WARN] DbBoards:128 - board STM32MP157F-DK2 has no document id list !
+2021-04-29 22:03:11,733 [WARN] DbBoards:128 - board STM32MP157F-EV1 has no document id list !
+2021-04-29 22:03:12,026 [ERROR] DbBoards:190 - Image file not found for board NUCLEO-WL55JC: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2021-04-29 22:03:12,188 [ERROR] DbBoards:190 - Image file not found for board STEVAL-STWINKT1B: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2021-04-29 22:03:12,537 [ERROR] DbBoards:190 - Image file not found for board STM32H7B3I-EVAL: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2021-04-29 22:03:12,726 [INFO] ApiDb:238 - Load user favorites file C:\Users\jpaca/.stm32cubeide/favorites.boards.txt: 3 item(s)
+2021-04-29 22:03:12,726 [INFO] ApiDb:242 - User favorites Boards=[NUCLEO-F031K6, NUCLEO-G474RE, STM32F407G-DISC1]
+2021-04-29 22:03:12,726 [INFO] DbBoards:207 - Set 3 / 3 favorites Boards
+2021-04-29 22:37:23,517 [INFO] MultiScanPanel:198 - Auto-refresh data requested => check proxy status ongoing
+2021-04-29 22:37:23,561 [INFO] DetailPanel:344 - Set advertising image to C:/Users/jpaca/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2021-04-29 22:37:23,579 [INFO] BoardFilterPanel:214 - Update 3 favorites Boards
+2021-04-29 22:37:44,170 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-29 22:37:44,171 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-29 22:37:44,207 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-04-29 22:37:44,208 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-29 22:37:44,208 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-04-29 22:37:44,208 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-04-29 22:37:44,208 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-04-29 22:37:44,211 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-29 22:37:44,212 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 349579488 Bytes (448790528)
+2021-04-29 22:37:44,213 [INFO] OpenFileManager:274 - Change cursor
+2021-04-29 22:37:44,214 [WARN] ThirdParty:204 - Use empty third party IP manager
+2021-04-29 22:37:44,228 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-04-29 22:37:44,228 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-04-29 22:37:44,312 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-29 22:37:44,313 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-29 22:37:44,314 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-29 22:37:44,314 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-29 22:37:44,315 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-29 22:37:44,315 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-29 22:37:44,315 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-29 22:37:44,315 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-29 22:37:45,579 [INFO] ThirdParty:887 - Integrity check success = true
+2021-04-29 22:37:45,580 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-29 22:37:45,580 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-29 22:37:52,610 [INFO] Rule:212 - rule GTZC_S instance for project manager is applicable
+2021-04-29 22:37:52,610 [INFO] Rule:212 - rule GTZC_S instance for context M0+ is applicable
+2021-04-29 22:37:52,610 [INFO] Rule:212 - rule GTZC_NS instance for context M4 is applicable
+2021-04-29 22:37:52,610 [INFO] Rule:212 - rule GTZC_S instance value for IP GTZC is applicable
+2021-04-29 22:37:52,610 [INFO] Rule:212 - rule GTZC_S instance for mcu is applicable
+2021-04-29 22:37:52,610 [INFO] Rule:212 - rule GTZC_S instance for VP is applicable
+2021-04-29 22:37:52,611 [INFO] Rule:212 - rule GTZC_S instance for signal is applicable
+2021-04-29 22:37:52,611 [INFO] Rule:212 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,611 [INFO] Rule:212 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,611 [INFO] Rule:212 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,612 [INFO] Rule:212 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2021-04-29 22:37:52,613 [INFO] Rule:212 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule Change Default Value for PLL1UserDefinedConfig is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule OPAMP is applicable
+2021-04-29 22:37:52,614 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2021-04-29 22:37:52,615 [INFO] Rule:212 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2021-04-29 22:37:52,616 [INFO] Rule:212 - rule USB device lib V2.5.3 for L0 rename USBD_SUPPORT_USER_STRING parameter to USBD_SUPPORT_USER_STRING_DESC4 is applicable
+2021-04-29 22:37:52,616 [INFO] Rule:212 - rule I2SCLockSelection clock entry align is applicable
+2021-04-29 22:37:52,616 [INFO] Rule:212 - rule Assign TIMx context if used as SYS timebase is applicable
+2021-04-29 22:37:52,620 [INFO] DbConfProperties:294 - Apply Compatibility (4/47 Rules)
+2021-04-29 22:37:52,749 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-29 22:37:52,749 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-29 22:37:52,749 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-29 22:37:52,755 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-29 22:37:52,756 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-29 22:37:52,756 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,765 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,766 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,767 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,768 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-29 22:37:52,770 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-29 22:37:52,770 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-29 22:37:52,770 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-29 22:37:52,773 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-29 22:37:52,773 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-29 22:37:52,773 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-29 22:37:52,816 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-29 22:37:52,816 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-29 22:37:52,816 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-29 22:37:52,823 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-04-29 22:37:52,823 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-04-29 22:37:52,861 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-29 22:37:52,862 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-29 22:37:52,862 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-29 22:37:52,866 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-04-29 22:37:52,867 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-04-29 22:37:52,867 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-04-29 22:37:52,867 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-04-29 22:37:52,867 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-04-29 22:37:52,868 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-29 22:37:52,869 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-29 22:37:52,869 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-29 22:37:52,869 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-29 22:37:52,869 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-29 22:37:52,869 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-29 22:37:52,870 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-04-29 22:37:52,870 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-04-29 22:37:52,871 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.1: no header file found
+2021-04-29 22:37:52,872 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.1.0: no header file found
+2021-04-29 22:37:52,872 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-04-29 22:37:53,532 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 354036120 Bytes (448790528)
+2021-04-29 22:37:53,536 [WARN] ThirdParty:749 - waiting for thirdparty lock release [change project]
+2021-04-29 22:37:53,536 [INFO] ThirdParty:751 - entering critical section [change project]
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 3.0.1
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 2.0.0
+2021-04-29 22:37:53,536 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.1.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-04-29 22:37:53,537 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.1
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.1.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-04-29 22:37:53,538 [INFO] ThirdParty:757 - exiting critical section [change project]
+2021-04-29 22:37:53,825 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-29 22:37:53,827 [INFO] PinOutPanel:1434 - setPackage(STM32G474RETx,LQFP64)
+2021-04-29 22:37:54,211 [INFO] UtilMem:74 - Before build in PCC Used Memory: 348996360 Bytes (448790528)
+2021-04-29 22:37:54,755 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-29 22:37:54,790 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-29 22:37:54,859 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-29 22:37:54,867 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-29 22:37:55,078 [INFO] UtilMem:74 - After build in PCC Used Memory: 384498952 Bytes (448790528)
+2021-04-29 22:37:55,112 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,112 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,113 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,115 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,115 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,115 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,116 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,116 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,116 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,116 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,117 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,117 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,117 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,118 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,118 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,118 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,119 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,119 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,119 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,119 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,120 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,120 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,120 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,121 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,121 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,122 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,122 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,123 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,123 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,123 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,124 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,124 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,124 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,124 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,124 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,125 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,125 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,125 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,126 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,126 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,126 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,126 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,127 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,127 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,127 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,128 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,128 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,128 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,128 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,129 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,129 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,129 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,130 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,130 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,130 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,131 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,131 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,132 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,132 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,132 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,133 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,133 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,133 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,134 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,134 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,135 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-29 22:37:55,157 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-04-29 22:37:55,243 [INFO] OpenFileManager:294 - Restore cursor
+2021-04-29 22:37:55,584 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 368078072 Bytes (448790528)
+2021-04-29 22:37:55,684 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 378563832 Bytes (448790528)
+2021-04-29 22:37:56,156 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-29 22:37:56,156 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-29 22:37:56,156 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-29 22:37:56,156 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-29 22:37:56,158 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-29 22:37:56,599 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-29 22:37:56,957 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-29 22:37:57,064 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-29 22:37:57,193 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-29 22:37:57,284 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-29 22:37:57,428 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-29 22:37:57,433 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-29 22:37:57,501 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-29 22:37:57,518 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-29 22:37:57,609 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-29 22:37:57,614 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-29 22:37:57,666 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-29 22:37:57,679 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-29 22:37:57,740 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-29 22:37:57,789 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-29 22:37:57,855 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-29 22:37:57,860 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-29 22:37:57,953 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-29 22:37:58,519 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 120mS.
+2021-04-29 22:37:58,528 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-29 22:37:58,846 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-29 22:37:58,857 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2021-04-29 22:37:58,863 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2021-04-29 22:37:58,870 [INFO] ApiDbMcu:456 - Load IP Config File for USBPD
+2021-04-29 22:37:58,879 [INFO] ApiDbMcu:456 - Load IP Config File for USB_Device
+2021-04-29 22:38:02,341 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 3813mS.
+2021-04-29 22:38:02,342 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-29 22:38:02,346 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 22:38:02,702 [INFO] ApiDb:263 - Save user favorites file C:\Users\jpaca/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-04-29 22:38:02,702 [INFO] ApiDb:267 - User favorites MCUs=[]
+2021-04-29 22:38:02,704 [INFO] ApiDb:263 - Save user favorites file C:\Users\jpaca/.stm32cubeide/favorites.boards.txt: 3 item(s)
+2021-04-29 22:38:02,705 [INFO] ApiDb:267 - User favorites Boards=[NUCLEO-F031K6, NUCLEO-G474RE, STM32F407G-DISC1]
+2021-04-29 22:38:43,597 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 540075728 Bytes (912261120)
+2021-04-29 22:38:46,511 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 552658640 Bytes (912261120)
+2021-04-29 22:38:52,332 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 729945352 Bytes (912261120)
+2021-04-29 22:38:52,559 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-29 22:38:52,559 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-29 22:38:52,559 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-29 22:38:52,560 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-29 22:38:52,713 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-29 22:38:52,761 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-29 22:38:52,790 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-29 22:38:52,878 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-29 22:38:52,889 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-29 22:38:52,952 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-29 22:38:52,968 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-29 22:38:53,046 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-29 22:38:53,051 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-29 22:38:53,098 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-29 22:38:53,111 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-29 22:38:53,169 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-29 22:38:53,199 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-29 22:38:53,257 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-29 22:38:53,265 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-29 22:38:53,346 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-29 22:38:53,938 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 117mS.
+2021-04-29 22:38:53,943 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-29 22:38:54,185 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-29 22:38:55,480 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1537mS.
+2021-04-29 22:38:55,481 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-29 22:38:55,485 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 22:45:28,783 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 677417048 Bytes (982515712)
+2021-04-29 22:45:28,846 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 687911832 Bytes (982515712)
+2021-04-29 22:45:32,980 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 786993248 Bytes (982515712)
+2021-04-29 22:45:33,136 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-29 22:45:33,136 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-29 22:45:33,136 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-29 22:45:33,136 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-29 22:45:33,137 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-29 22:45:33,349 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-29 22:45:33,395 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-29 22:45:33,431 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-29 22:45:33,483 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-29 22:45:33,533 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-29 22:45:33,647 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-29 22:45:33,655 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-29 22:45:33,713 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-29 22:45:33,728 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-29 22:45:33,803 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-29 22:45:33,809 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-29 22:45:33,855 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-29 22:45:33,868 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-29 22:45:33,924 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-29 22:45:33,951 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-29 22:45:34,008 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-29 22:45:34,015 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-29 22:45:34,093 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-29 22:45:34,531 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 113mS.
+2021-04-29 22:45:34,536 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-29 22:45:34,905 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-29 22:45:36,080 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1544mS.
+2021-04-29 22:45:36,081 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 22:45:36,085 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 22:57:23,209 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 633946272 Bytes (1016070144)
+2021-04-29 22:57:23,270 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 642861704 Bytes (1016070144)
+2021-04-29 22:57:23,912 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 666978456 Bytes (1016070144)
+2021-04-29 22:57:24,086 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-29 22:57:24,086 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-29 22:57:24,086 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-29 22:57:24,086 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-29 22:57:24,087 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-29 22:57:24,275 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-29 22:57:24,319 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-29 22:57:24,354 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-29 22:57:24,402 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-29 22:57:24,434 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-29 22:57:24,501 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-29 22:57:24,509 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-29 22:57:24,564 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-29 22:57:24,578 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-29 22:57:24,652 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-29 22:57:24,657 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-29 22:57:24,701 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-29 22:57:24,713 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-29 22:57:24,768 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-29 22:57:24,795 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-29 22:57:24,852 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-29 22:57:24,860 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-29 22:57:24,942 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-29 22:57:25,378 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 118mS.
+2021-04-29 22:57:25,383 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-29 22:57:25,755 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-29 22:57:26,936 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1553mS.
+2021-04-29 22:57:26,937 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 22:57:26,944 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 23:09:08,150 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 716654776 Bytes (1064304640)
+2021-04-29 23:09:08,207 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 726614208 Bytes (1064304640)
+2021-04-29 23:09:10,711 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 824131776 Bytes (1064304640)
+2021-04-29 23:09:10,865 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-29 23:09:10,865 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-29 23:09:10,866 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-29 23:09:10,866 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-29 23:09:10,866 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-29 23:09:10,867 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-29 23:09:11,046 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-29 23:09:11,090 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-29 23:09:11,115 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-29 23:09:11,161 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-29 23:09:11,234 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-29 23:09:11,250 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-29 23:09:11,320 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-29 23:09:11,327 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-29 23:09:11,383 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-29 23:09:11,399 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-29 23:09:11,480 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-29 23:09:11,485 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-29 23:09:11,529 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-29 23:09:11,541 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-29 23:09:11,595 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-29 23:09:11,612 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-29 23:09:11,612 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-29 23:09:11,624 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-29 23:09:11,681 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-29 23:09:11,688 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-29 23:09:11,770 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-29 23:09:12,203 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 114mS.
+2021-04-29 23:09:12,209 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-29 23:09:12,603 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-29 23:09:13,795 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1586mS.
+2021-04-29 23:09:13,796 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 23:09:13,802 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-29 23:23:36,964 [INFO] Gpio:248 - dependency for GPIO []
+2021-04-29 23:23:55,552 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 821640904 Bytes (1073741824)
+2021-04-29 23:23:55,613 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 831623720 Bytes (1073741824)
+2021-04-29 23:23:57,874 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 439557312 Bytes (1073741824)
+2021-04-29 23:23:58,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-29 23:23:58,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-29 23:23:58,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-29 23:23:58,034 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-29 23:23:58,035 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-29 23:23:58,036 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-29 23:23:58,193 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-29 23:23:58,237 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-29 23:23:58,262 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-29 23:23:58,309 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-29 23:23:58,374 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-29 23:23:58,390 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-29 23:23:58,457 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-29 23:23:58,465 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-29 23:23:58,521 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-29 23:23:58,537 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-29 23:23:58,615 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-29 23:23:58,621 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-29 23:23:58,666 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-29 23:23:58,679 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-29 23:23:58,737 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-29 23:23:58,751 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-29 23:23:58,752 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-29 23:23:58,764 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-29 23:23:58,823 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-29 23:23:58,830 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-29 23:23:58,914 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-29 23:23:59,533 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 153mS.
+2021-04-29 23:23:59,538 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-29 23:23:59,727 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-29 23:24:00,729 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1191mS.
+2021-04-29 23:24:00,730 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-29 23:24:00,736 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 00:00:32,335 [INFO] Gpio:248 - dependency for GPIO []
+2021-04-30 00:07:09,925 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 806448824 Bytes (1073741824)
+2021-04-30 00:07:09,984 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 815886008 Bytes (1073741824)
+2021-04-30 00:07:10,616 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 840003256 Bytes (1073741824)
+2021-04-30 00:07:10,773 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 00:07:10,773 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 00:07:10,773 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 00:07:10,773 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 00:07:10,774 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 00:07:10,775 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 00:07:10,968 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 00:07:11,014 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 00:07:11,043 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 00:07:11,090 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 00:07:11,172 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 00:07:11,188 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 00:07:11,256 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 00:07:11,264 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 00:07:11,323 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 00:07:11,339 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 00:07:11,418 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 00:07:11,424 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 00:07:11,471 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 00:07:11,485 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 00:07:11,550 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 00:07:11,566 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 00:07:11,568 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 00:07:11,580 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 00:07:11,645 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 00:07:11,655 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 00:07:11,741 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 00:07:12,431 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 116mS.
+2021-04-30 00:07:12,437 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 00:07:12,628 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 00:07:13,828 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1391mS.
+2021-04-30 00:07:13,829 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-30 00:07:13,834 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 11:19:26,139 [INFO] Activator:170 - 
+
+
+2021-04-30 11:19:26,143 [INFO] Activator:171 - !SESSION log4j initialized
+2021-04-30 11:27:38,222 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-04-30 11:27:40,473 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557
+2021-04-30 11:27:40,487 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/mcu/
+2021-04-30 11:27:40,492 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/boardmanager/
+2021-04-30 11:27:40,493 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,493 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,496 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,506 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,508 [INFO] DbMcusJson:63 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,509 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,510 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,534 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-04-30 11:27:40,538 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,642 [INFO] RulesReader:52 - Compatibility file has been processed (228 Rules)
+2021-04-30 11:27:40,731 [INFO] MicroXplorer:565 - Detected Java Version = 1.8.0_272
+2021-04-30 11:27:40,732 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/mcu/
+2021-04-30 11:27:40,732 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/boardmanager/
+2021-04-30 11:27:40,733 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,733 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,733 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,733 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,733 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,733 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,734 [INFO] DbMcusJson:63 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,734 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,734 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,734 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,734 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,734 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,735 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,735 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-04-30 11:27:40,735 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,735 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,805 [INFO] MainPanel:190 - HeapMemory: 632291328
+2021-04-30 11:27:40,894 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/mcu/
+2021-04-30 11:27:40,895 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/boardmanager/
+2021-04-30 11:27:40,895 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,895 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,895 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/plugins/mcufinder/images/
+2021-04-30 11:27:40,896 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,896 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,896 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,896 [INFO] DbMcusJson:63 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,897 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,897 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,897 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,897 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,897 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,897 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,898 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-04-30 11:27:40,898 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\jpaca\.stmcufinder\plugins\mcufinder/ => C:\Users\jpaca\.stmcufinder\plugins\mcufinder
+2021-04-30 11:27:40,898 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\jpaca\.stmcufinder\plugins\mcufinder//mcu/
+2021-04-30 11:27:40,915 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557
+2021-04-30 11:27:40,917 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-04-30 11:27:40,919 [INFO] PluginManage:292 - Check plugin analytics
+2021-04-30 11:27:45,615 [INFO] AnalyticsPlugin:225 - Accepted Software Licenses: 
+2021-04-30 11:27:45,615 [INFO] AnalyticsPlugin:227 - Accepted CMSIS Pack Licenses: 
+2021-04-30 11:27:45,615 [INFO] AnalyticsPlugin:229 - Accepted Firmware Licenses: 
+2021-04-30 11:27:45,616 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-04-30 11:27:45,616 [INFO] PluginManage:292 - Check plugin clock
+2021-04-30 11:27:45,630 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-04-30 11:27:45,630 [INFO] PluginManage:292 - Check plugin ddr
+2021-04-30 11:27:45,633 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-04-30 11:27:45,633 [INFO] PluginManage:292 - Check plugin filemanager
+2021-04-30 11:27:45,761 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-04-30 11:27:45,761 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-04-30 11:27:45,769 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-04-30 11:27:45,770 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-04-30 11:27:45,782 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-04-30 11:27:45,782 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-04-30 11:27:45,809 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-04-30 11:27:45,809 [INFO] PluginManage:292 - Check plugin power
+2021-04-30 11:27:45,823 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-04-30 11:27:45,823 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-04-30 11:27:45,838 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-04-30 11:27:45,838 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-04-30 11:27:45,956 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-04-30 11:27:45,956 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-04-30 11:27:45,956 [INFO] PluginManage:292 - Check plugin tools
+2021-04-30 11:27:45,957 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-04-30 11:27:45,957 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-04-30 11:27:45,960 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-04-30 11:27:45,960 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-04-30 11:27:46,276 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-04-30 11:27:46,277 [INFO] PluginManage:292 - Check plugin updater
+2021-04-30 11:27:46,289 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-04-30 11:27:46,290 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-04-30 11:27:46,460 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-30 11:27:46,624 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,624 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-04-30 11:27:46,627 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,628 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-04-30 11:27:46,631 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,631 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-04-30 11:27:46,633 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,633 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-04-30 11:27:46,636 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,636 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-04-30 11:27:46,639 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,639 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-04-30 11:27:46,645 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,646 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-04-30 11:27:46,648 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,648 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-04-30 11:27:46,653 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,654 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-04-30 11:27:46,662 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,662 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-04-30 11:27:46,664 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,665 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-04-30 11:27:46,668 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,668 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-04-30 11:27:46,674 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,675 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-04-30 11:27:46,679 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,680 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-04-30 11:27:46,683 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,683 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-04-30 11:27:46,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,686 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-04-30 11:27:46,689 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,689 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-04-30 11:27:46,692 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,693 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-04-30 11:27:46,696 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,696 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-04-30 11:27:46,700 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,700 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-04-30 11:27:46,702 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,703 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-04-30 11:27:46,708 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,708 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-04-30 11:27:46,712 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,713 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-04-30 11:27:46,716 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,716 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-04-30 11:27:46,720 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,720 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-04-30 11:27:46,723 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,723 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-04-30 11:27:46,730 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,733 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-04-30 11:27:46,735 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,735 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-04-30 11:27:46,740 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,741 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-04-30 11:27:46,744 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,744 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-04-30 11:27:46,746 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,747 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-04-30 11:27:46,752 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,752 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-04-30 11:27:46,754 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,754 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-04-30 11:27:46,758 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,758 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-04-30 11:27:46,761 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,761 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-04-30 11:27:46,763 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,763 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-04-30 11:27:46,765 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,765 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-04-30 11:27:46,768 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,768 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-04-30 11:27:46,772 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:27:46,772 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-04-30 11:27:47,063 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-30 11:27:47,163 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-30 11:27:47,216 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-04-30 11:27:47,220 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-30 11:27:47,220 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-04-30 11:27:47,263 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-30 11:27:47,263 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-04-30 11:27:48,961 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-04-30 11:27:51,965 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-30 11:27:51,965 [ERROR] AbstractThirdPartyUpdaterManager:153 - java.lang.Integer cannot be cast to java.util.List
+2021-04-30 11:27:51,965 [INFO] ThirdParty:887 - Integrity check success = false
+2021-04-30 11:27:51,965 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-30 11:27:51,965 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-30 11:27:51,965 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-04-30 11:27:51,967 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-04-30 11:27:51,969 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-30 11:27:51,970 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-04-30 11:27:51,977 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-04-30 11:27:51,980 [INFO] Updater:1002 - Updater Version found : 6.1.0
+2021-04-30 11:27:52,000 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557
+2021-04-30 11:27:52,157 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-30 11:27:52,158 [INFO] MainUpdater:249 - Updater Check For Update Now.
+2021-04-30 11:27:52,158 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-30 11:27:52,189 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-04-30 11:27:52,279 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-30 11:27:52,281 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-30 11:27:52,357 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-04-30 11:27:52,357 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-30 11:27:52,357 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-04-30 11:27:52,357 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-04-30 11:27:52,357 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-04-30 11:27:52,359 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-30 11:27:52,360 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 487607328 Bytes (632291328)
+2021-04-30 11:27:52,362 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-04-30 11:27:52,362 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-30 11:27:52,362 [INFO] OpenFileManager:274 - Change cursor
+2021-04-30 11:27:52,365 [WARN] ThirdParty:204 - Use empty third party IP manager
+2021-04-30 11:27:52,381 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-04-30 11:27:52,381 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-04-30 11:27:52,458 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-30 11:27:52,459 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-30 11:27:52,461 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-30 11:27:52,461 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-30 11:27:52,462 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-30 11:27:52,462 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-30 11:27:52,462 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : SIGFOX STM32 LIB Condition cause : null
+2021-04-30 11:27:52,462 [WARN] ConditionMgr:1040 - genDependencies : Invalid condition id : Sigfox Third Party LIB Condition cause : null
+2021-04-30 11:27:52,984 [INFO] ThirdParty:887 - Integrity check success = true
+2021-04-30 11:27:52,984 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-04-30 11:27:52,984 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-04-30 11:28:00,710 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-30 11:28:00,710 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-30 11:28:00,710 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-30 11:28:00,715 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-30 11:28:00,716 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-30 11:28:00,716 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-30 11:28:00,725 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,725 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,725 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,725 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,725 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 11:28:00,731 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-30 11:28:00,732 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-30 11:28:00,732 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-30 11:28:00,734 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-30 11:28:00,735 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-30 11:28:00,735 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-30 11:28:00,765 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-30 11:28:00,766 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-30 11:28:00,766 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-30 11:28:00,774 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-04-30 11:28:00,774 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-04-30 11:28:00,802 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-30 11:28:00,802 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-30 11:28:00,802 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-30 11:28:00,808 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-04-30 11:28:00,808 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-04-30 11:28:00,808 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-04-30 11:28:00,808 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-04-30 11:28:00,808 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-04-30 11:28:00,810 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-30 11:28:00,810 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-30 11:28:00,810 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-30 11:28:00,810 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-30 11:28:00,811 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-30 11:28:00,811 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-30 11:28:00,811 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-04-30 11:28:00,812 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-04-30 11:28:00,813 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.1: no header file found
+2021-04-30 11:28:00,814 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.1.0: no header file found
+2021-04-30 11:28:00,814 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-04-30 11:28:01,501 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 474967568 Bytes (632291328)
+2021-04-30 11:28:01,503 [INFO] DbMcusXml:97 - Load MCU database from C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\/mcu/families.xml
+2021-04-30 11:28:01,996 [INFO] DbMcusJson:92 - JSON generation date=Mon Feb 08 05:35:07 PST 2021 (1612791307)
+2021-04-30 11:28:02,627 [INFO] DbMcus:176 - Found 1835 MCUs (1796 are supported by CubeMX, 1804 are visible in CubeMX)
+2021-04-30 11:28:02,629 [INFO] ApiDb:238 - Load user favorites file C:\Users\jpaca/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-04-30 11:28:02,629 [INFO] ApiDb:242 - User favorites MCUs=[]
+2021-04-30 11:28:02,629 [INFO] DbMcus:188 - Set 0 / 0 favorites MCUs
+2021-04-30 11:28:02,633 [WARN] ThirdParty:749 - waiting for thirdparty lock release [change project]
+2021-04-30 11:28:02,634 [INFO] ThirdParty:751 - entering critical section [change project]
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 3.0.1
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 2.0.0
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-04-30 11:28:02,634 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.1.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-04-30 11:28:02,635 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.1
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.1.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-04-30 11:28:02,636 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-04-30 11:28:02,637 [INFO] ThirdParty:757 - exiting critical section [change project]
+2021-04-30 11:28:02,988 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-30 11:28:02,989 [INFO] PinOutPanel:1434 - setPackage(STM32G474RETx,LQFP64)
+2021-04-30 11:28:03,393 [INFO] UtilMem:74 - Before build in PCC Used Memory: 497538264 Bytes (695205888)
+2021-04-30 11:28:03,932 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 11:28:03,967 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 11:28:04,038 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 11:28:04,046 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 11:28:04,292 [INFO] UtilMem:74 - After build in PCC Used Memory: 466887744 Bytes (695205888)
+2021-04-30 11:28:04,315 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,315 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,315 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,315 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,315 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,315 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,316 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,316 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,316 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,316 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,316 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,316 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,317 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,317 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,317 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,318 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,318 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,318 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,318 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,318 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,319 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,319 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,319 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,319 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,319 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,319 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,320 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,320 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,321 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,321 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,321 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,321 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,321 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,321 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,322 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,322 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,323 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,323 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,323 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,324 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,324 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,324 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,325 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,325 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,325 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,326 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,326 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,327 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,327 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,328 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,341 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,342 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,342 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,343 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,343 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,343 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,344 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,344 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,344 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,345 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,345 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,345 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,346 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,346 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,347 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,347 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,347 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,348 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,348 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,349 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,349 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,350 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,350 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,350 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,351 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,351 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,352 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 11:28:04,372 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-04-30 11:28:04,467 [INFO] OpenFileManager:294 - Restore cursor
+2021-04-30 11:38:41,566 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 469181368 Bytes (695205888)
+2021-04-30 11:38:45,160 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 483339680 Bytes (695205888)
+2021-04-30 11:38:47,634 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 513747888 Bytes (695205888)
+2021-04-30 11:38:48,114 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 11:38:48,114 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 11:38:48,114 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 11:38:48,114 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 11:38:48,114 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 11:38:48,116 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 11:38:48,558 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 11:38:48,881 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 11:38:48,987 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 11:38:49,107 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 11:38:49,330 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 11:38:49,345 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 11:38:49,476 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 11:38:49,484 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 11:38:49,553 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 11:38:49,573 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 11:38:49,683 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 11:38:49,689 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 11:38:49,739 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 11:38:49,754 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 11:38:49,817 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 11:38:49,840 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 11:38:49,841 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 11:38:49,854 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 11:38:49,919 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 11:38:49,927 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 11:38:50,050 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 11:38:50,691 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 145mS.
+2021-04-30 11:38:50,699 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 11:38:51,047 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 11:38:51,059 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2021-04-30 11:38:51,066 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2021-04-30 11:38:51,072 [INFO] ApiDbMcu:456 - Load IP Config File for USBPD
+2021-04-30 11:38:51,082 [INFO] ApiDbMcu:456 - Load IP Config File for USB_Device
+2021-04-30 11:38:52,833 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 2134mS.
+2021-04-30 11:38:52,835 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-30 11:38:52,841 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 11:42:16,508 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 786245056 Bytes (1054867456)
+2021-04-30 11:42:17,499 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 800398792 Bytes (1054867456)
+2021-04-30 11:42:18,099 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 826613192 Bytes (1054867456)
+2021-04-30 11:42:18,282 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 11:42:18,282 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 11:42:18,282 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 11:42:18,282 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 11:42:18,282 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 11:42:18,283 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 11:42:18,461 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 11:42:18,508 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 11:42:18,539 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 11:42:18,593 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 11:42:18,708 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 11:42:18,737 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 11:42:18,830 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 11:42:18,839 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 11:42:18,905 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 11:42:18,926 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 11:42:19,014 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 11:42:19,020 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 11:42:19,069 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 11:42:19,083 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 11:42:19,141 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 11:42:19,202 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 11:42:19,203 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 11:42:19,214 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 11:42:19,275 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 11:42:19,282 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 11:42:19,371 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 11:42:19,955 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 110mS.
+2021-04-30 11:42:19,960 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 11:42:20,158 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 11:42:21,350 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1390mS.
+2021-04-30 11:42:21,352 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-30 11:42:21,360 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 11:47:20,596 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,994x429,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 11:49:12,138 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 541697424 Bytes (1073741824)
+2021-04-30 11:49:13,334 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 554280336 Bytes (1073741824)
+2021-04-30 11:49:13,896 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 580494736 Bytes (1073741824)
+2021-04-30 11:49:14,057 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 11:49:14,057 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 11:49:14,057 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 11:49:14,057 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 11:49:14,057 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 11:49:14,057 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 11:49:14,058 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 11:49:14,237 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 11:49:14,282 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 11:49:14,310 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 11:49:14,356 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 11:49:14,518 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 11:49:14,534 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 11:49:14,601 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 11:49:14,609 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 11:49:14,663 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 11:49:14,678 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 11:49:14,759 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 11:49:14,765 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 11:49:14,810 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 11:49:14,823 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 11:49:14,878 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 11:49:14,892 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 11:49:14,893 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 11:49:14,903 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 11:49:14,961 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 11:49:14,968 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 11:49:15,057 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 11:49:15,587 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 111mS.
+2021-04-30 11:49:15,593 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 11:49:15,841 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 11:49:17,015 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1422mS.
+2021-04-30 11:49:17,017 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-30 11:49:17,023 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 17:02:45,699 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,994x429,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:06,706 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:10,369 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:17,494 [INFO] DbMcusDocs:145 - JSON generation date=Mon Feb 08 05:35:07 PST 2021 (1612791307)
+2021-04-30 17:03:17,597 [INFO] DbMcusDocs:81 - Found 617 MCUs documents
+2021-04-30 17:03:18,174 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:23,206 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:32,487 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:40,652 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:46,475 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:49,542 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:49,621 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:51,632 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:55,908 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:55,990 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:03:58,735 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:04:08,359 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 554929544 Bytes (1073741824)
+2021-04-30 17:04:09,281 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 568034704 Bytes (1073741824)
+2021-04-30 17:04:09,954 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 595824008 Bytes (1073741824)
+2021-04-30 17:04:10,122 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 17:04:10,122 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 17:04:10,122 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 17:04:10,122 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 17:04:10,122 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 17:04:10,122 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 17:04:10,123 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 17:04:10,307 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 17:04:10,356 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 17:04:10,388 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 17:04:10,437 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 17:04:10,584 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 17:04:10,601 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 17:04:10,671 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 17:04:10,678 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 17:04:10,739 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 17:04:10,761 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 17:04:10,849 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 17:04:10,855 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 17:04:10,903 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 17:04:10,917 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 17:04:10,976 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 17:04:10,990 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 17:04:10,991 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 17:04:11,002 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 17:04:11,061 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 17:04:11,069 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 17:04:11,159 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 17:04:11,747 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 113mS.
+2021-04-30 17:04:11,752 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 17:04:11,976 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 17:04:13,413 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1661mS.
+2021-04-30 17:04:13,414 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 17:04:13,420 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 17:04:31,476 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,994x429,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:04:32,558 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-04-30 17:04:33,949 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 832281400 Bytes (1073741824)
+2021-04-30 17:04:34,681 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 845912888 Bytes (1073741824)
+2021-04-30 17:04:35,376 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 495036264 Bytes (1073741824)
+2021-04-30 17:04:35,542 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 17:04:35,542 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 17:04:35,543 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 17:04:35,543 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 17:04:35,543 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 17:04:35,543 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 17:04:35,544 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 17:04:35,726 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 17:04:35,770 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 17:04:35,799 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 17:04:35,847 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 17:04:35,949 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 17:04:35,965 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 17:04:36,035 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 17:04:36,043 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 17:04:36,099 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 17:04:36,160 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 17:04:36,246 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 17:04:36,252 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 17:04:36,299 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 17:04:36,312 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 17:04:36,367 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 17:04:36,381 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 17:04:36,382 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 17:04:36,393 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 17:04:36,449 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 17:04:36,456 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 17:04:36,545 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 17:04:37,112 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 105mS.
+2021-04-30 17:04:37,118 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 17:04:37,311 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 17:04:38,627 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1509mS.
+2021-04-30 17:04:38,628 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-30 17:04:38,635 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-04-30 19:51:49,041 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-30 19:51:49,042 [INFO] MainUpdater:2644 - connection check result : 10
+2021-04-30 19:51:49,081 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-04-30 19:51:49,081 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-30 19:51:49,081 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-04-30 19:51:49,081 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-04-30 19:51:49,081 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-04-30 19:51:49,083 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-30 19:51:49,086 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 727546160 Bytes (1073741824)
+2021-04-30 19:51:49,086 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-04-30 19:51:49,086 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-04-30 19:51:49,086 [INFO] OpenFileManager:274 - Change cursor
+2021-04-30 19:51:49,087 [WARN] ThirdParty:204 - Use empty third party IP manager
+2021-04-30 19:51:49,099 [INFO] RulesReader:52 - Compatibility file has been processed (228 Rules)
+2021-04-30 19:51:54,170 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-30 19:51:54,171 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-30 19:51:54,171 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-04-30 19:51:54,172 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-30 19:51:54,172 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-30 19:51:54,172 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.3.0.1: no header file found
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,173 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,174 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,175 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-04-30 19:51:54,176 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-30 19:51:54,176 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-30 19:51:54,176 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.2.0.0: no header file found
+2021-04-30 19:51:54,177 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-30 19:51:54,177 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-30 19:51:54,178 [WARN] ApiManager:294 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-04-30 19:51:54,205 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-30 19:51:54,205 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-30 19:51:54,205 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-04-30 19:51:54,208 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-04-30 19:51:54,208 [WARN] ApiManager:294 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-04-30 19:51:54,234 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-30 19:51:54,234 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-30 19:51:54,234 [WARN] ApiManager:294 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-04-30 19:51:54,237 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-04-30 19:51:54,237 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-04-30 19:51:54,237 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-04-30 19:51:54,237 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-04-30 19:51:54,237 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-04-30 19:51:54,238 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-30 19:51:54,239 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-30 19:51:54,239 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.1.0: no header file found
+2021-04-30 19:51:54,239 [WARN] ApiManager:294 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-30 19:51:54,239 [WARN] ApiManager:294 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-30 19:51:54,239 [WARN] ApiManager:294 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-04-30 19:51:54,240 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-04-30 19:51:54,240 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-04-30 19:51:54,241 [WARN] ApiManager:294 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.1: no header file found
+2021-04-30 19:51:54,242 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.1.0: no header file found
+2021-04-30 19:51:54,242 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-04-30 19:51:54,760 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 674897496 Bytes (1073741824)
+2021-04-30 19:51:54,761 [WARN] ThirdParty:749 - waiting for thirdparty lock release [change project]
+2021-04-30 19:51:54,761 [INFO] ThirdParty:751 - entering critical section [change project]
+2021-04-30 19:51:54,761 [INFO] ThirdParty:939 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-04-30 19:51:54,761 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-04-30 19:51:54,761 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 3.0.1
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 2.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-04-30 19:51:54,762 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.1.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.1
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.1.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-04-30 19:51:54,763 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-04-30 19:51:54,764 [INFO] ThirdParty:757 - exiting critical section [change project]
+2021-04-30 19:51:54,859 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-04-30 19:51:54,860 [INFO] PinOutPanel:1434 - setPackage(STM32G474RETx,LQFP64)
+2021-04-30 19:51:55,067 [INFO] UtilMem:74 - Before build in PCC Used Memory: 535980336 Bytes (1073741824)
+2021-04-30 19:51:55,212 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 19:51:55,232 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 19:51:55,269 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 19:51:55,274 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/jpaca/.stm32cubemx/plugins/power
+2021-04-30 19:51:55,350 [INFO] UtilMem:74 - After build in PCC Used Memory: 632449328 Bytes (1073741824)
+2021-04-30 19:51:55,363 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,363 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,363 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,363 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,363 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,364 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,365 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,366 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,366 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,366 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,366 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,366 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,368 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,368 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,368 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,368 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,368 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,369 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,369 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,369 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,369 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,370 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,370 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,370 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,370 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,370 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,371 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,371 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,371 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,372 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,372 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,372 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,372 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,373 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,373 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,373 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,374 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,374 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,375 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,375 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,375 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,376 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,376 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,376 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,377 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,377 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,377 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,378 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,378 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,379 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,379 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,379 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,380 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,380 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,381 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,381 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,381 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-04-30 19:51:55,395 [INFO] OpenFileManager:294 - Restore cursor

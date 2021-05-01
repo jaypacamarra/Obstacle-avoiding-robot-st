@@ -1,0 +1,20 @@
+/*
+ * ultrasonic_sensor.c
+ *
+ *  Created on: Apr 29, 2021
+ *      Author: jpaca
+ */
+
+#include "ultrasonic_sensor.h"
+
+extern uint16_t Time_at_rising_edge;
+extern uint16_t Time_at_falling_edge;
+
+float getDistance()
+{
+	HAL_GPIO_WritePin(trigPin_GPIO_Port, trigPin_Pin, 1);
+	delay_us(10);
+	HAL_GPIO_WritePin(trigPin_GPIO_Port, trigPin_Pin, 0);
+
+	return distance;
+}

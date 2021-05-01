@@ -47,6 +47,8 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/obstacle-avoiding-bot/Robot-Library/Ultrasonic_Sensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/obstacle-avoiding-bot/Robot-Library/LED_Feedback}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/obstacle-avoiding-bot/Robot-Library/Motor}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.35151502" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>

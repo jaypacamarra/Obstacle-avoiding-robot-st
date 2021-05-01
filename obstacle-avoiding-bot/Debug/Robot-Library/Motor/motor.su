@@ -1,0 +1,2 @@
+motor.c:10:6:setMotorSpeed	16	static
+motor.c:15:6:setMotorDirection	16	static

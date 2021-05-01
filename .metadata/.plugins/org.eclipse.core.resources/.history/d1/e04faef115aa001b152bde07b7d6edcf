@@ -1,0 +1,12 @@
+/*
+ * RGB.c
+ *
+ *  Created on: Apr 30, 2021
+ *      Author: jpaca
+ */
+
+#include "RGB.h"
+
+HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 1);
+HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);

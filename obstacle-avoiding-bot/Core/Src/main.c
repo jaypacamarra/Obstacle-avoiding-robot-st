@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "ultrasonic_sensor.h"
+#include "RGB.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -41,8 +42,10 @@
 
 /* Private variables ---------------------------------------------------------*/
 TIM_HandleTypeDef htim1;
+TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
+
 float distance;
 
 /* USER CODE END PV */
@@ -51,6 +54,7 @@ float distance;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_TIM1_Init(void);
+static void MX_TIM4_Init(void);
 /* USER CODE BEGIN PFP */
 void delay_us(uint16_t us);
 
@@ -90,9 +94,11 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start(&htim1);	// start timer1
-  HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);	// start input capture timer1
+  HAL_TIM_IC_Start_IT(&htim4, TIM_CHANNEL_1);	// start input capture timer1
+
 
   /* USER CODE END 2 */
 
@@ -103,10 +109,37 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if(HAL_GPIO_ReadPin(USER_BUTTON_GPIO_Port, USER_BUTTON_Pin))
+	  distance = getDistance();	//get distance read from HC-SR04
+
+	  if(distance < 10)
 	  {
-		  getDistance();
+		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 1);
+		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 0);
+		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);
+
+		  // Set motor speeds to 0 for 0.5 seconds
+
+		  // Set motor direction to LEFT
+
+		  // Set motor speed to 40 for 2 seconds
 	  }
+	  else if(distance >= 10 && distance < 50)
+	  {
+		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 0);
+		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 1);
+
+		  // Set motor speed to 60
+	  }
+	  else if(distance >= 50)
+	  {
+		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 1);
+		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);
+
+	  }
+
+	  HAL_Delay(70);	// delay before getting next distance value
 
   }
   /* USER CODE END 3 */
@@ -170,7 +203,6 @@ static void MX_TIM1_Init(void)
 
   TIM_ClockConfigTypeDef sClockSourceConfig = {0};
   TIM_MasterConfigTypeDef sMasterConfig = {0};
-  TIM_IC_InitTypeDef sConfigIC = {0};
   TIM_BreakDeadTimeConfigTypeDef sBreakDeadTimeConfig = {0};
 
   /* USER CODE BEGIN TIM1_Init 1 */
@@ -192,22 +224,10 @@ static void MX_TIM1_Init(void)
   {
     Error_Handler();
   }
-  if (HAL_TIM_IC_Init(&htim1) != HAL_OK)
-  {
-    Error_Handler();
-  }
   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
   sMasterConfig.MasterOutputTrigger2 = TIM_TRGO2_RESET;
   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
   if (HAL_TIMEx_MasterConfigSynchronization(&htim1, &sMasterConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sConfigIC.ICPolarity = TIM_INPUTCHANNELPOLARITY_RISING;
-  sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
-  sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
-  sConfigIC.ICFilter = 0;
-  if (HAL_TIM_IC_ConfigChannel(&htim1, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
   {
     Error_Handler();
   }
@@ -220,6 +240,64 @@ static void MX_TIM1_Init(void)
   /* USER CODE BEGIN TIM1_Init 2 */
 
   /* USER CODE END TIM1_Init 2 */
+
+}
+
+/**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_IC_InitTypeDef sConfigIC = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 170-1;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 65534;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_IC_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigIC.ICPolarity = TIM_INPUTCHANNELPOLARITY_RISING;
+  sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
+  sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
+  sConfigIC.ICFilter = 0;
+  if (HAL_TIM_IC_ConfigChannel(&htim4, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
 
 }
 
@@ -269,6 +347,8 @@ void delay_us(uint16_t us)
 	// wait for the counter to reach the us input in the parameter
 	while(__HAL_TIM_GET_COUNTER(&htim1) < us);
 }
+
+
 /* USER CODE END 4 */
 
 /**

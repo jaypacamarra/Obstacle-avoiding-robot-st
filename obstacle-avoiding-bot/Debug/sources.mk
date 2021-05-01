@@ -22,5 +22,7 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32G4xx_HAL_Driver/Src \
+Robot-Library/LED_Feedback \
+Robot-Library/Motor \
 Robot-Library/Ultrasonic_Sensor \
 
