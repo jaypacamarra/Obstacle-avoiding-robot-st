@@ -66,8 +66,16 @@ void Error_Handler(void);
 #define GREEN_GPIO_Port GPIOA
 #define BLUE_Pin GPIO_PIN_7
 #define BLUE_GPIO_Port GPIOA
+#define H_Bridge1_Control2_Pin GPIO_PIN_10
+#define H_Bridge1_Control2_GPIO_Port GPIOB
+#define H_Bridge1_Control1_Pin GPIO_PIN_8
+#define H_Bridge1_Control1_GPIO_Port GPIOA
 #define trigPin_Pin GPIO_PIN_10
 #define trigPin_GPIO_Port GPIOA
+#define H_Bridge2_Control1_Pin GPIO_PIN_4
+#define H_Bridge2_Control1_GPIO_Port GPIOB
+#define H_Bridge2_Control2_Pin GPIO_PIN_5
+#define H_Bridge2_Control2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 /* USER CODE END Private defines */
 

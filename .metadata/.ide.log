@@ -1670,3 +1670,40 @@
 2021-04-30 23:16:57,661 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1370mS.
 2021-04-30 23:16:57,662 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
 2021-04-30 23:16:57,667 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-05-01 00:02:06,385 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 883747136 Bytes (1073741824)
+2021-05-01 00:02:08,259 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 897378624 Bytes (1073741824)
+2021-05-01 00:02:08,978 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 519562944 Bytes (1073741824)
+2021-05-01 00:02:09,148 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-05-01 00:02:09,149 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-05-01 00:02:09,149 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-05-01 00:02:09,149 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-05-01 00:02:09,149 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-05-01 00:02:09,149 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-05-01 00:02:09,150 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-05-01 00:02:09,335 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-05-01 00:02:09,380 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-05-01 00:02:09,416 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-05-01 00:02:09,476 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-05-01 00:02:09,605 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-05-01 00:02:09,622 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-05-01 00:02:09,807 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-05-01 00:02:09,815 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-05-01 00:02:09,873 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-05-01 00:02:09,889 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-05-01 00:02:09,972 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-05-01 00:02:09,978 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-05-01 00:02:10,025 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-05-01 00:02:10,038 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-05-01 00:02:10,095 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-05-01 00:02:10,109 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-05-01 00:02:10,110 [WARN] CodeGenerator:3177 - IP not found : null
+2021-05-01 00:02:10,121 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-05-01 00:02:10,178 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-05-01 00:02:10,186 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-05-01 00:02:10,276 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-05-01 00:02:10,843 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 161mS.
+2021-05-01 00:02:10,848 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-05-01 00:02:11,045 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-05-01 00:02:12,326 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1478mS.
+2021-05-01 00:02:12,327 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-05-01 00:02:12,332 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.

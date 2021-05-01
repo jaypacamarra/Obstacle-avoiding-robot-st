@@ -1,0 +1,26 @@
+/*
+ * motor.c
+ *
+ *  Created on: Apr 30, 2021
+ *      Author: jpaca
+ */
+
+#include "motor.h"
+
+void setMotorSpeed(uint8_t dutyCycle)
+{
+	// Set duty cycle of motors
+}
+
+void setMotorDirection(uint8_t direction)
+{
+	// Set direction command signals to H Bridge Driver
+	if(direction==FORWARD)
+	{
+		HAL_GPIO_Write(H_Bridge1_Control1_GPIO_Port,H_Bridge1_Control1_Pin,1);
+		HAL_GPIO_Write(H_Bridge1_Control2_GPIO_Port,H_Bridge1_Control1_Pin,0);
+		HAL_GPIO_Write(H_Bridge2_Control1_GPIO_Port,H_Bridge1_Control1_Pin,1);
+		HAL_GPIO_Write(H_Bridge2_Control2_GPIO_Port,H_Bridge1_Control1_Pin,0);
+	}
+
+}

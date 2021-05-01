@@ -10,12 +10,15 @@
 
 #include "main.h"
 
-#define FORWARD		1U
-#define REVERSE		2U
-#define LEFT		3U
-#define RIGHT		4U
+#define FORWARD		(0x0001U)
+#define REVERSE		(0x0002U)
+#define LEFT		(0x0003U)
+#define RIGHT		(0x0003U)
+#define HIGH_STOP	(0x0004U)
+#define LOW_STOP	(0x0005U)
 
-void setMotorSpeed(uint8_t dutyCycle);
+void setMotor1Speed(uint8_t dutyCycle);
+void setMotor2Speed(uint8_t dutyCycle);
 void setMotorDirection(uint8_t direction);
 
 #endif /* MOTOR_H_ */

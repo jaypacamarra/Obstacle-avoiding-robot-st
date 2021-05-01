@@ -1,0 +1,21 @@
+/*
+ * motor.h
+ *
+ *  Created on: Apr 30, 2021
+ *      Author: jpaca
+ */
+
+#ifndef MOTOR_H_
+#define MOTOR_H_
+
+#include "main.h"
+
+#define FORWARD		(0x0001U)
+#define REVERSE		(0x0002U)
+#define LEFT		(0x0003U)
+#define RIGHT		(0x0003U)
+
+void setMotorSpeed(uint8_t dutyCycle);
+void setMotorDirection(uint8_t direction);
+
+#endif /* MOTOR_H_ */
