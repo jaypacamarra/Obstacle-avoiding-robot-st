@@ -10,7 +10,11 @@
 
 #include "main.h"
 
-void RGB_SET(uint8_t red_state,uint8_t green_state,uint8_t blue_state);
+uint8_t RED_Color	= 1;
+uint8_t GREEN_Color = 2;
+uint8_t BLUE_Color = 3;
+
+void RGB_SET(uint8_t color);
 // void RGB_SET_PWM(uint8_t redState, uint8_t greenState, uint8_t blueState)
 
 

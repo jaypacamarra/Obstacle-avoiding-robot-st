@@ -113,7 +113,10 @@ int main(void)
 
 	  if(distance < 10)
 	  {
-		  RGB_SET(1,0,0);
+//		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 1);
+//		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 0);
+//		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);
+		  RGB_SET(RED_Color);
 
 		  // Set motor speeds to 0 for 0.5 seconds
 
@@ -123,13 +126,19 @@ int main(void)
 	  }
 	  else if(distance >= 10 && distance < 50)
 	  {
-		  RGB_SET(0,0,1);
+//		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+//		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 0);
+//		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 1);
+		  RGB_SET(BLUE_Color);
 
 		  // Set motor speed to 60
 	  }
 	  else if(distance >= 50)
 	  {
-		  RGB_SET(0,1,0);
+//		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+//		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 1);
+//		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);
+		  RGB_SET(GREEN_Color);
 
 	  }
 

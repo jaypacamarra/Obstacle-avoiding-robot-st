@@ -1629,3 +1629,44 @@
 2021-04-30 19:51:55,381 [INFO] IPUIPlugin:64 - create IPUIPlugin
 2021-04-30 19:51:55,381 [INFO] IPUIPlugin:64 - create IPUIPlugin
 2021-04-30 19:51:55,395 [INFO] OpenFileManager:294 - Restore cursor
+2021-04-30 23:16:52,117 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 635438176 Bytes (1073741824)
+2021-04-30 23:16:54,023 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 651693144 Bytes (1073741824)
+2021-04-30 23:16:54,240 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 732955744 Bytes (1073741824)
+2021-04-30 23:16:54,418 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 23:16:54,418 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: TIM1_8G4
+2021-04-30 23:16:54,418 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-04-30 23:16:54,418 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-04-30 23:16:54,418 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-04-30 23:16:54,418 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-04-30 23:16:54,419 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.5.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.0.202011121557\\db\
+2021-04-30 23:16:54,683 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp_save
+2021-04-30 23:16:54,732 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\license.tmp
+2021-04-30 23:16:54,772 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp_save
+2021-04-30 23:16:54,821 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\gpio.tmp
+2021-04-30 23:16:54,933 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-04-30 23:16:54,950 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c_save
+2021-04-30 23:16:55,072 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_it.c
+2021-04-30 23:16:55,081 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h_save
+2021-04-30 23:16:55,137 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_it.h
+2021-04-30 23:16:55,152 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c_save
+2021-04-30 23:16:55,234 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\stm32g4xx_hal_msp.c
+2021-04-30 23:16:55,239 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp_save
+2021-04-30 23:16:55,286 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\MXTmpFiles\system.tmp
+2021-04-30 23:16:55,299 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h_save
+2021-04-30 23:16:55,355 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\stm32g4xx_hal_conf.h
+2021-04-30 23:16:55,369 [WARN] IPConfigManager:2967 - IP not found : TIM
+2021-04-30 23:16:55,370 [WARN] CodeGenerator:3177 - IP not found : null
+2021-04-30 23:16:55,380 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h_save
+2021-04-30 23:16:55,438 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Inc\main.h
+2021-04-30 23:16:55,445 [INFO] CodeEngine:229 - oldGeneratedFile, C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c_save
+2021-04-30 23:16:55,570 [INFO] CodeEngine:247 - Generated code: C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\Core\Src\main.c
+2021-04-30 23:16:56,285 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 176mS.
+2021-04-30 23:16:56,291 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.0-B13
+2021-04-30 23:16:56,533 [INFO] ConfigFileManager:1238 - The Die is : DIE469
+2021-04-30 23:16:56,536 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2021-04-30 23:16:56,539 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2021-04-30 23:16:56,542 [INFO] ApiDbMcu:456 - Load IP Config File for USBPD
+2021-04-30 23:16:56,547 [INFO] ApiDbMcu:456 - Load IP Config File for USB_Device
+2021-04-30 23:16:57,661 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1370mS.
+2021-04-30 23:16:57,662 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-04-30 23:16:57,667 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.

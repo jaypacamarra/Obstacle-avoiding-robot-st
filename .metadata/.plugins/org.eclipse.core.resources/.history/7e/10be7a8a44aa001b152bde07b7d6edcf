@@ -10,7 +10,14 @@
 
 #include "main.h"
 
-void RGB_SET(uint8_t red_state,uint8_t green_state,uint8_t blue_state);
+typedef enum
+{
+	RED,
+	GREEN,
+	BLUE
+}color;
+
+void RGB_SET(uint8_t color);
 // void RGB_SET_PWM(uint8_t redState, uint8_t greenState, uint8_t blueState)
 
 

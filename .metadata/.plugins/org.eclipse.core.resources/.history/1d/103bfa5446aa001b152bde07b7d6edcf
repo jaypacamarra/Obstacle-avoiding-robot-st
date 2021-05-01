@@ -1,0 +1,29 @@
+/*
+ * RGB.c
+ *
+ *  Created on: Apr 30, 2021
+ *      Author: jpaca
+ */
+
+#include "RGB.h"
+
+
+/**
+  * @brief  Starts the TIM Input Capture measurement in interrupt mode.
+  * @param  htim TIM Input Capture handle
+  * @param  Channel TIM Channels to be enabled
+  *          This parameter can be one of the following values:
+  *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
+  *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
+  *            @arg TIM_CHANNEL_3: TIM Channel 3 selected
+  *            @arg TIM_CHANNEL_4: TIM Channel 4 selected
+  * @retval HAL status
+  */
+void RGB_SET(uint8_t red_state,uint8_t green_state,uint8_t blue_state)
+{
+	HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, red_state);
+	HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, green_state);
+	HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, blue_state);
+}
+
+// void RGB_SET_PWM(uint8_t redState, uint8_t greenState, uint8_t blueState)

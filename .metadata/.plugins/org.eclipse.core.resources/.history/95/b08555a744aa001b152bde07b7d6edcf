@@ -113,7 +113,9 @@ int main(void)
 
 	  if(distance < 10)
 	  {
-		  RGB_SET(1,0,0);
+		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 1);
+		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 0);
+		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);
 
 		  // Set motor speeds to 0 for 0.5 seconds
 
@@ -123,13 +125,17 @@ int main(void)
 	  }
 	  else if(distance >= 10 && distance < 50)
 	  {
-		  RGB_SET(0,0,1);
+		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 0);
+		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 1);
 
 		  // Set motor speed to 60
 	  }
 	  else if(distance >= 50)
 	  {
-		  RGB_SET(0,1,0);
+		  HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, 0);
+		  HAL_GPIO_WritePin(GREEN_GPIO_Port, GREEN_Pin, 1);
+		  HAL_GPIO_WritePin(BLUE_GPIO_Port, BLUE_Pin, 0);
 
 	  }
 
@@ -316,6 +322,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(USER_BUTTON_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : echoPin_Pin */
+  GPIO_InitStruct.Pin = echoPin_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(echoPin_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : RED_Pin GREEN_Pin BLUE_Pin trigPin_Pin */
   GPIO_InitStruct.Pin = RED_Pin|GREEN_Pin|BLUE_Pin|trigPin_Pin;
