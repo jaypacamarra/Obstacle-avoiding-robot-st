@@ -27,7 +27,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
  C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/Ultrasonic_Sensor/ultrasonic_sensor.h \
- C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/LED_Feedback/RGB.h
+ C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/LED_Feedback/RGB.h \
+ C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/Motor/motor.h
 
 ../Core/Inc/main.h:
 
@@ -88,3 +89,5 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/Ultrasonic_Sensor/ultrasonic_sensor.h:
 
 C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/LED_Feedback/RGB.h:
+
+C:/Users/jpaca/Google\ Drive/Engineering/Projects/PROJ-045\ -\ Obstacle\ Avoiding\ Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/Motor/motor.h:

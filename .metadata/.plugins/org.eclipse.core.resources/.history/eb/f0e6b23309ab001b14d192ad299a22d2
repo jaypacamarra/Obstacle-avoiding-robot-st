@@ -24,7 +24,6 @@
 /* USER CODE BEGIN Includes */
 #include "ultrasonic_sensor.h"
 #include "RGB.h"
-#include "motor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -120,10 +119,6 @@ int main(void)
 		  setMotorDirection(LOW_STOP);
 		  HAL_Delay(500);
 
-		  // Set motor direction to reverse for 1.5 seconds
-		  setMotorDirection(REVERSE);
-		  HAL_Delay(1500);
-
 		  // Set motor direction to LEFT
 
 		  // Set motor speed to 40 for 2 seconds
@@ -132,21 +127,15 @@ int main(void)
 	  {
 		  RGB_SET(0,0,1);
 
-		  // Set motor direction to forward
-		  setMotorDirection(FORWARD);
-
 		  // Set motor speed to 60
 	  }
 	  else if(distance >= 50)
 	  {
 		  RGB_SET(0,1,0);
 
-		  // Set motor direction to forward
-		  setMotorDirection(FORWARD);
-
 	  }
 
-	  HAL_Delay(100);	// delay before getting next distance value
+	  HAL_Delay(70);	// delay before getting next distance value
 
   }
   /* USER CODE END 3 */

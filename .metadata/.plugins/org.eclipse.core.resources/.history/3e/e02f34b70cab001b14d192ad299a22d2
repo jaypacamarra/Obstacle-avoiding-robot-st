@@ -132,9 +132,6 @@ int main(void)
 	  {
 		  RGB_SET(0,0,1);
 
-		  // Set motor direction to forward
-		  setMotorDirection(FORWARD);
-
 		  // Set motor speed to 60
 	  }
 	  else if(distance >= 50)

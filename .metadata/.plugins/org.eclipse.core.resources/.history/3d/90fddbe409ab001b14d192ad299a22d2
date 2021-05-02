@@ -132,21 +132,15 @@ int main(void)
 	  {
 		  RGB_SET(0,0,1);
 
-		  // Set motor direction to forward
-		  setMotorDirection(FORWARD);
-
 		  // Set motor speed to 60
 	  }
 	  else if(distance >= 50)
 	  {
 		  RGB_SET(0,1,0);
 
-		  // Set motor direction to forward
-		  setMotorDirection(FORWARD);
-
 	  }
 
-	  HAL_Delay(100);	// delay before getting next distance value
+	  HAL_Delay(70);	// delay before getting next distance value
 
   }
   /* USER CODE END 3 */
