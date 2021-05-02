@@ -77,9 +77,6 @@ void Error_Handler(void);
 #define H_Bridge2_Control2_Pin GPIO_PIN_5
 #define H_Bridge2_Control2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
-#define MIN_DISTANCE 10
-#define MAX_DISTANCE 50
-
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

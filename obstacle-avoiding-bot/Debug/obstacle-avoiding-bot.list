@@ -35,15 +35,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  15 .debug_ranges 00000b68  00000000  00000000  0002eee8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_macro  00024760  00000000  00000000  0002fa50  2**0
+ 16 .debug_macro  0002476c  00000000  00000000  0002fa50  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   0000a519  00000000  00000000  000541b0  2**0
+ 17 .debug_line   0000a519  00000000  00000000  000541bc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    000ee59a  00000000  00000000  0005e6c9  2**0
+ 18 .debug_str    000ee5ba  00000000  00000000  0005e6d5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  0014cc63  2**0
+ 19 .comment      0000007b  00000000  00000000  0014cc8f  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000032a0  00000000  00000000  0014cce0  2**2
+ 20 .debug_frame  000032a0  00000000  00000000  0014cd0c  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -129,7 +129,7 @@ int main(void)
  8000246:	4b2c      	ldr	r3, [pc, #176]	; (80002f8 <main+0xe0>)
  8000248:	edc3 7a00 	vstr	s15, [r3]
 
-	  if(distance < 10)
+	  if(distance < MIN_DISTANCE)
  800024c:	4b2a      	ldr	r3, [pc, #168]	; (80002f8 <main+0xe0>)
  800024e:	edd3 7a00 	vldr	s15, [r3]
  8000252:	eeb2 7a04 	vmov.f32	s14, #36	; 0x41200000  10.0
@@ -164,7 +164,7 @@ int main(void)
 
 		  // Set motor speed to 40 for 2 seconds
 	  }
-	  else if(distance >= 10 && distance < 50)
+	  else if(distance >= MIN_DISTANCE && distance < MAX_DISTANCE)
  8000288:	4b1b      	ldr	r3, [pc, #108]	; (80002f8 <main+0xe0>)
  800028a:	edd3 7a00 	vldr	s15, [r3]
  800028e:	eeb2 7a04 	vmov.f32	s14, #36	; 0x41200000  10.0
@@ -192,7 +192,7 @@ int main(void)
 
 		  // Set motor speed to 60
 	  }
-	  else if(distance >= 50)
+	  else if(distance >= MAX_DISTANCE)
  80002c2:	4b0d      	ldr	r3, [pc, #52]	; (80002f8 <main+0xe0>)
  80002c4:	edd3 7a00 	vldr	s15, [r3]
  80002c8:	ed9f 7a0c 	vldr	s14, [pc, #48]	; 80002fc <main+0xe4>
@@ -213,8 +213,8 @@ int main(void)
 
 	  }
 
-	  HAL_Delay(100);	// delay before getting next distance value
- 80002e6:	2064      	movs	r0, #100	; 0x64
+	  HAL_Delay(70);	// delay before getting next distance value
+ 80002e6:	2046      	movs	r0, #70	; 0x46
  80002e8:	f000 fb3a 	bl	8000960 <HAL_Delay>
 	  distance = getDistance();	//get distance read from HC-SR04
  80002ec:	e7a7      	b.n	800023e <main+0x26>

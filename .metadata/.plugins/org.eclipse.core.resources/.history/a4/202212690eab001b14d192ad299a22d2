@@ -131,7 +131,6 @@ int main(void)
 	  }
 	  else if(distance >= MIN_DISTANCE && distance < MAX_DISTANCE)
 	  {
-		  // Turn on BLUE LED
 		  RGB_SET(0,0,1);
 
 		  // Set motor direction to forward
@@ -141,7 +140,6 @@ int main(void)
 	  }
 	  else if(distance >= MAX_DISTANCE)
 	  {
-		  // Turn on GREEN LED
 		  RGB_SET(0,1,0);
 
 		  // Set motor direction to forward
