@@ -1,4 +1,4 @@
-23:18:46 **** Incremental Build of configuration Debug for project obstacle-avoiding-bot ****
+19:30:16 **** Incremental Build of configuration Debug for project obstacle-avoiding-bot ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32G474xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/jpaca/Google Drive/Engineering/Projects/PROJ-045 - Obstacle Avoiding Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/Ultrasonic_Sensor" -I"C:/Users/jpaca/Google Drive/Engineering/Projects/PROJ-045 - Obstacle Avoiding Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/LED_Feedback" -I"C:/Users/jpaca/Google Drive/Engineering/Projects/PROJ-045 - Obstacle Avoiding Robot/Software/Obstacle-avoiding-robot-st/obstacle-avoiding-bot/Robot-Library/Motor" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "obstacle-avoiding-bot.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jpaca\Google Drive\Engineering\Projects\PROJ-045 - Obstacle Avoiding Robot\Software\Obstacle-avoiding-robot-st\obstacle-avoiding-bot\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="obstacle-avoiding-bot.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -8,7 +8,7 @@ arm-none-eabi-objdump -h -S  obstacle-avoiding-bot.elf  > "obstacle-avoiding-bot
 arm-none-eabi-objcopy  -O binary  obstacle-avoiding-bot.elf  "obstacle-avoiding-bot.bin"
 arm-none-eabi-size   obstacle-avoiding-bot.elf 
    text	   data	    bss	    dec	    hex	filename
-  12736	     20	   1740	  14496	   38a0	obstacle-avoiding-bot.elf
+  16596	     20	   1892	  18508	   484c	obstacle-avoiding-bot.elf
 Finished building: default.size.stdout
  
 Finished building: obstacle-avoiding-bot.bin
@@ -16,5 +16,5 @@ Finished building: obstacle-avoiding-bot.bin
 Finished building: obstacle-avoiding-bot.list
  
 
-23:18:47 Build Finished. 0 errors, 0 warnings. (took 1s.464ms)
+19:30:18 Build Finished. 0 errors, 0 warnings. (took 1s.468ms)
 

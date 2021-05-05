@@ -50,6 +50,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -68,6 +70,8 @@ void Error_Handler(void);
 #define BLUE_GPIO_Port GPIOA
 #define H_Bridge1_Control2_Pin GPIO_PIN_10
 #define H_Bridge1_Control2_GPIO_Port GPIOB
+#define PWM_A_Pin GPIO_PIN_7
+#define PWM_A_GPIO_Port GPIOC
 #define H_Bridge1_Control1_Pin GPIO_PIN_8
 #define H_Bridge1_Control1_GPIO_Port GPIOA
 #define trigPin_Pin GPIO_PIN_10
@@ -76,6 +80,8 @@ void Error_Handler(void);
 #define H_Bridge2_Control1_GPIO_Port GPIOB
 #define H_Bridge2_Control2_Pin GPIO_PIN_5
 #define H_Bridge2_Control2_GPIO_Port GPIOB
+#define PWM_B_Pin GPIO_PIN_6
+#define PWM_B_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 #define MIN_DISTANCE 10
 #define MAX_DISTANCE 50

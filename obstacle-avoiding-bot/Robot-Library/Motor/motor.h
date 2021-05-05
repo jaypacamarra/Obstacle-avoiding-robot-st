@@ -17,8 +17,8 @@
 #define HIGH_STOP	(0x0004U)
 #define LOW_STOP	(0x0005U)
 
-void setMotor1Speed(uint8_t dutyCycle);
-void setMotor2Speed(uint8_t dutyCycle);
+void setMotorASpeed(uint8_t dutyCycle);
+void setMotorBSpeed(uint8_t dutyCycle);
 void setMotorDirection(uint8_t direction);
 
 #endif /* MOTOR_H_ */

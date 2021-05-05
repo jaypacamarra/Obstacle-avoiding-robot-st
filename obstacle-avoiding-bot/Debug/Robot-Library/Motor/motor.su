@@ -1,3 +1,3 @@
-motor.c:10:6:setMotor1Speed	16	static
-motor.c:15:6:setMotor2Speed	16	static
-motor.c:20:6:setMotorDirection	16	static
+motor.c:15:6:setMotorASpeed	16	static
+motor.c:24:6:setMotorBSpeed	16	static
+motor.c:33:6:setMotorDirection	16	static
